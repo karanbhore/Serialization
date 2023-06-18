@@ -8,7 +8,7 @@ public class Animal {
 
 	public Animal() {
 		super();
-	System.out.println("Anuimal constructor called!!!");
+	System.out.println("Animal constructor called!!!");
 	}
 	
 	

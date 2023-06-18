@@ -19,12 +19,12 @@ public class OrderOfserialization {
 		FileInputStream fis=new FileInputStream("pqr.ser"); 
 		ObjectInputStream ois=new ObjectInputStream(fis);
 		
-//		Rat r2=(Rat)ois.readObject();
 //		Cat c2=(Cat)ois.readObject();
+//		Rat r2=(Rat)ois.readObject();
 //		Dog d2=(Dog)ois.readObject();
 //		
 //		System.out.println("deserialized successfully!!!");
-//		System.out.println("d2.i"+d2.i+"r2.l"+r2.l+"");
+//		System.out.println("d2.i:"+d2.i+"  "+" r2.l:"+r2.l);
 
 		Object o=ois.readObject();
 		if(o instanceof Dog) {
